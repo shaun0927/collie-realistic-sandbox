@@ -1,2 +1,5 @@
-# collie-realistic-sandbox
-Realistic Collie validation sandbox with imported public issue/PR scenarios
+# Collie Realistic Sandbox
+
+Owned sandbox used to validate Collie against issue/PR scenarios derived from public repositories.
+
+All imported scenarios are summaries with source links, not upstream reports.
