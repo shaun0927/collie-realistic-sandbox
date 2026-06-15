@@ -24,4 +24,4 @@ def path_url(url: str) -> str:
 
 def route_operation_id(path: str, method: str) -> str:
     cleaned = path.strip("/").replace("/", "_") or "root"
-    return f"{method.lower()}_{cleaned}"
+    return f"{method.lower()}_{cleaned}_{len(path)}"

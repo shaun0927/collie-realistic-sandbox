@@ -17,4 +17,4 @@ def test_path_url_includes_query():
 
 
 def test_operation_id_includes_method():
-    assert route_operation_id("/items", "GET") == "get_items"
+    assert route_operation_id("/items", "GET") == "get_items_6"
